@@ -32,7 +32,12 @@ unstringifiableValues = [
   {
     'functions': function(){},
     'undefined': undefined
-  }
+  },
+  [undefined,1,2],
+  [function(){},1,2],
+  {a: undefined, b: function(){}, c: 'c'},
+    undefined,
+    function(){}
 ];
 
 parseableStrings = [
